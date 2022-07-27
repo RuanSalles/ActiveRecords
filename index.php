@@ -22,16 +22,15 @@ $model = new UserModel();
 //}
 
 $user = $model->bootstrap(
-    "Robson",
-    "Leite",
-    "cursos5@upinside.com.br",
-    '34892493349'
+    "Ruan",
+    "Sales",
+    "contatoruansales@upinside.com.br",
+    '07259592400'
 );
 
 var_dump($user);
 
-$user->id = 10;
-$user->created_at = date("Y/m/d H:i");
+//var_dump($user);
 
 if (!$model->find($user->email)) {
     echo "<p class='trigger warning'>Cadastro</p>";

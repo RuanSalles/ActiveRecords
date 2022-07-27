@@ -39,8 +39,4 @@ class Connection {
         
     }
 
-    final private function __clone()
-    {
-
-    }
  }
